@@ -19,7 +19,7 @@ jobs:
       - name: Build app
         run: scripts/buildprod.sh
 
-      - id: Authenticate gcloud
+      - name: Authenticate gcloud
         uses: google-github-actions/auth@v2
         with:
           credentials_json: ${{ secrets.GCP_CREDENTIALS }}
