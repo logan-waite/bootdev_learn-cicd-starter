@@ -28,4 +28,4 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2
 
       - name: Push Image to gcloud
-        run: gcloud builds submit --tag us-central1-docker.pkg.dev/bamboo-copilot-462110-t4/notely-ar-repo:latest
+        run: gcloud builds submit --tag us-central1-docker.pkg.dev/bamboo-copilot-462110-t4/notely-ar-repo/notely:latest
